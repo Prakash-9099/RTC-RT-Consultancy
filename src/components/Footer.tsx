@@ -35,7 +35,7 @@ export default function Footer() {
       <div className="absolute bottom-0 right-0 w-96 h-96 bg-cyan-500/4 rounded-full blur-3xl pointer-events-none" />
 
       {/* ── Top CTA strip ── */}
-      <div className="relative bg-gradient-to-r from-sky-600 via-sky-500 to-cyan-600">
+      {/* <div className="relative bg-gradient-to-r from-sky-600 via-sky-500 to-cyan-600">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
           <div className="flex flex-col md:flex-row items-center justify-between gap-6">
             <div>
@@ -56,7 +56,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* ── Main footer body ── */}
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
