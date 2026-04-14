@@ -4,7 +4,7 @@ import { MapPin, Phone, Mail, Clock, Send, CheckCircle, Zap, MessageSquare, User
 const contactInfo = [
   { icon: <MapPin className="w-5 h-5" />, title: 'Our Address',     color: 'from-sky-500 to-cyan-500',   bg: 'bg-sky-50',    border: 'border-sky-100', tc: 'text-sky-600',    lines: ['RZ-91, Street No. 11,', 'East Sagarpur,', 'New Delhi – 110046, India'] },
   { icon: <Phone className="w-5 h-5" />,  title: 'Phone Numbers',   color: 'from-emerald-500 to-teal-500', bg: 'bg-emerald-50', border: 'border-emerald-100', tc: 'text-emerald-600', lines: ['+91-8447850714', '+91-7291009911'], links: ['tel:+918447850714', 'tel:+917291009911'] },
-  { icon: <Mail className="w-5 h-5" />,   title: 'Email Addresses', color: 'from-violet-500 to-purple-500', bg: 'bg-violet-50', border: 'border-violet-100', tc: 'text-violet-600', lines: ['rtc@rtconsultancy.in', 'admin@rtconsultancy.in'], links: ['mailto:rtc@rtconsultancy.in', 'mailto:admin@rtconsultancy.in'] },
+  { icon: <Mail className="w-5 h-5" />,   title: 'Email Addresses', color: 'from-violet-500 to-purple-500', bg: 'bg-violet-50', border: 'border-violet-100', tc: 'text-violet-600', lines: ['info@rtconsultancy.in', 'admin@rtconsultancy.in'], links: ['mailto:info@rtconsultancy.in', 'mailto:admin@rtconsultancy.in'] },
   { icon: <Clock className="w-5 h-5" />,  title: 'Business Hours',  color: 'from-amber-500 to-orange-500', bg: 'bg-amber-50',  border: 'border-amber-100',  tc: 'text-amber-600',  lines: ['Mon – Sat: 9:00 AM – 7:00 PM', 'Sunday: 10:00 AM – 4:00 PM', 'India Standard Time (IST)'] },
 ];
 
@@ -269,8 +269,8 @@ export default function Contact() {
                 <a href="tel:+917291009911" className="flex items-center gap-2 text-white hover:text-sky-200 text-sm font-semibold transition-colors">
                   <Phone className="w-4 h-4" /> +91-7291009911
                 </a>
-                <a href="mailto:rtc@rtconsultancy.in" className="flex items-center gap-2 text-white hover:text-sky-200 text-xs font-medium transition-colors mt-1">
-                  <Mail className="w-3.5 h-3.5" /> rtc@rtconsultancy.in
+                <a href="mailto:info@rtconsultancy.in" className="flex items-center gap-2 text-white hover:text-sky-200 text-xs font-medium transition-colors mt-1">
+                  <Mail className="w-3.5 h-3.5" /> info@rtconsultancy.in
                 </a>
               </div>
             </div>

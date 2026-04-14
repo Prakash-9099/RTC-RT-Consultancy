@@ -29,7 +29,7 @@ export default function Navbar() {
   return (
     <>
       {/* ── Top Announcement Bar ── */}
-      <div className="bg-gradient-to-r from-sky-700 via-sky-600 to-cyan-600 text-white text-xs font-medium py-2 px-4 text-center hidden sm:block">
+      <div className="bg-gradient-to-r from-sky-700 via-sky-600 to-cyan-600 text-white text-sm font-medium py-2 px-4 text-center hidden sm:block">
         <span>🎓 Enroll now & get 20% off your first course &nbsp;|&nbsp;</span>
         {/* <a href="tel:+918447850714" className="inline-flex items-center gap-1 underline underline-offset-2 hover:text-sky-100 transition-colors">
           <Phone className="w-3 h-3" /> +91-8447850714
@@ -58,10 +58,10 @@ export default function Navbar() {
               </div>
               <div className="leading-none">
                 <div className="flex items-baseline gap-1">
-                  <span className="text-sky-600 font-black text-lg tracking-tight">RTC</span>
-                  <span className="text-slate-500 font-medium text-sm hidden sm:inline">– RT Consultancy</span>
+                  <span className="text-sky-600 font-black text-2xl tracking-tight">RTC</span>
+                  <span className="text-slate-500 font-medium text-md hidden sm:inline">- RT Consultancy</span>
                 </div>
-                <p className="text-slate-400 text-[10px] font-medium hidden sm:block mt-px">
+                <p className="text-slate-400 text-[11px] font-medium hidden sm:block mt-px">
                   Empowering Skills. Transforming Careers.
                 </p>
               </div>
@@ -73,7 +73,7 @@ export default function Navbar() {
                 <Link
                   key={link.path}
                   to={link.path}
-                  className={`nav-link px-3.5 py-2 rounded-lg text-sm font-semibold transition-all duration-250 ${isActive(link.path)
+                  className={`nav-link px-3.5 py-2 rounded-lg text-md font-semibold transition-all duration-250 ${isActive(link.path)
                     ? 'text-sky-600 bg-sky-50'
                     : 'text-slate-600 hover:text-sky-600 hover:bg-sky-50/70'
                     }`}
@@ -87,7 +87,7 @@ export default function Navbar() {
             <div className="hidden lg:flex items-center gap-3">
               <a
                 href="tel:+918447850714"
-                className="flex items-center gap-1.5 text-slate-500 hover:text-sky-600 text-sm font-medium transition-colors"
+                className="flex items-center gap-1.5 text-slate-500 hover:text-sky-600 text-md font-medium transition-colors"
               >
                 <Phone className="w-3.5 h-3.5" />
                 <span className="hidden xl:inline">+91-8447850714</span>

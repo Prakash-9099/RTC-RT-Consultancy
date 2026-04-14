@@ -175,9 +175,9 @@ export default function Home() {
             {/* trust badges */}
             <div className="flex flex-wrap items-center justify-center gap-5 sm:gap-8 text-slate-400">
               {[
-                { icon: <Award className="w-4 h-4 text-sky-400" />,    text: 'Cisco Authorized' },
-                { icon: <CheckCircle className="w-4 h-4 text-emerald-400" />, text: 'Microsoft Partner' },
-                { icon: <Star className="w-4 h-4 text-amber-400 fill-amber-400" />, text: 'ISO Certified' },
+                { icon: <Award className="w-4 h-4 text-sky-400" />,    text: 'Cisco Authorized Course' },
+                { icon: <CheckCircle className="w-4 h-4 text-emerald-400" />, text: 'Microsoft Authorized Course' },
+                { icon: <Star className="w-4 h-4 text-amber-400 fill-amber-400" />, text: 'ISO Authorized Course' },
                 { icon: <Globe className="w-4 h-4 text-cyan-400" />,   text: '25+ Countries' },
               ].map((b, i) => (
                 <div key={i} className="flex items-center gap-2 text-sm">

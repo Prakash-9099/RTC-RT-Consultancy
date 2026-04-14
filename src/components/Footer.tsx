@@ -165,7 +165,7 @@ export default function Footer() {
                   <Mail className="w-3.5 h-3.5 text-sky-400" />
                 </div>
                 <div className="space-y-1">
-                  <a href="mailto:rtc@rtconsultancy.in"    className="text-slate-400 hover:text-sky-400 text-xs font-medium block transition-colors">rtc@rtconsultancy.in</a>
+                  <a href="mailto:info@rtconsultancy.in" className="text-slate-400 hover:text-sky-400 text-xs font-medium block transition-colors">info@rtconsultancy.in</a>
                   <a href="mailto:admin@rtconsultancy.in"  className="text-slate-400 hover:text-sky-400 text-xs font-medium block transition-colors">admin@rtconsultancy.in</a>
                 </div>
               </div>
