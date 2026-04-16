@@ -67,7 +67,7 @@ export default function Navbar() {
               </div> */}
               <div className="leading-none flex items-center gap-2">
                 <img
-                  src="../public/images/RTC_logo.jpeg"
+                  src="/images/RTC_logo.jpeg"
                   alt="RTC Logo"
                   className="h-10 w-auto object-contain"
                 />
