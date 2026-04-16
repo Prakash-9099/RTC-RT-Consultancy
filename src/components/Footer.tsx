@@ -2,11 +2,11 @@ import { Link } from 'react-router-dom';
 import { Zap, MapPin, Phone, Mail, Facebook, Twitter, Linkedin, Youtube, Instagram, ArrowRight, ChevronRight } from 'lucide-react';
 
 const quickLinks = [
-  { label: 'Home',       path: '/' },
-  { label: 'Courses',    path: '/courses' },
-  { label: 'Services',   path: '/services' },
-  { label: 'Locations',  path: '/locations' },
-  { label: 'About Us',   path: '/about' },
+  { label: 'Home', path: '/' },
+  { label: 'Courses', path: '/courses' },
+  { label: 'Services', path: '/services' },
+  { label: 'Locations', path: '/locations' },
+  { label: 'About Us', path: '/about' },
   { label: 'Contact Us', path: '/contact' },
 ];
 
@@ -20,11 +20,11 @@ const courseLinks = [
 ];
 
 const socials = [
-  { icon: <Facebook className="w-4 h-4" />,  label: 'Facebook' },
-  { icon: <Twitter className="w-4 h-4" />,   label: 'Twitter' },
-  { icon: <Linkedin className="w-4 h-4" />,  label: 'LinkedIn' },
+  { icon: <Facebook className="w-4 h-4" />, label: 'Facebook' },
+  { icon: <Twitter className="w-4 h-4" />, label: 'Twitter' },
+  { icon: <Linkedin className="w-4 h-4" />, label: 'LinkedIn' },
   { icon: <Instagram className="w-4 h-4" />, label: 'Instagram' },
-  { icon: <Youtube className="w-4 h-4" />,   label: 'YouTube' },
+  { icon: <Youtube className="w-4 h-4" />, label: 'YouTube' },
 ];
 
 export default function Footer() {
@@ -65,12 +65,21 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <Link to="/" className="inline-flex items-center gap-2.5 group mb-5">
-              <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-sky-500 to-cyan-500 flex items-center justify-center shadow-lg group-hover:shadow-sky-500/30 transition-shadow shrink-0">
-                <Zap className="w-5 h-5 text-white" strokeWidth={2.5} />
-              </div>
-              <div className="leading-none">
-                <p className="text-sky-400 font-black text-lg tracking-tight">RTC</p>
-                <p className="text-slate-400 text-xs font-medium">RT Consultancy</p>
+              <div className="flex items-center gap-3">
+                <img
+                  src="/images/RTC_logo.jpeg"
+                  alt="RALPANA Logo"
+                  className="h-10 w-auto object-contain rounded-md shadow-md"
+                />
+
+                <div className="leading-none">
+                  <p className="text-sky-400 font-semibold text-lg">
+                    RALPANA
+                  </p>
+                  <p className="text-slate-500 text-xs font-medium">
+                    Training & Consultancy
+                  </p>
+                </div>
               </div>
             </Link>
             <p className="text-slate-400 text-sm leading-relaxed mb-6">
@@ -166,7 +175,7 @@ export default function Footer() {
                 </div>
                 <div className="space-y-1">
                   <a href="mailto:info@rtconsultancy.in" className="text-slate-400 hover:text-sky-400 text-xs font-medium block transition-colors">info@rtconsultancy.in</a>
-                  <a href="mailto:admin@rtconsultancy.in"  className="text-slate-400 hover:text-sky-400 text-xs font-medium block transition-colors">admin@rtconsultancy.in</a>
+                  <a href="mailto:admin@rtconsultancy.in" className="text-slate-400 hover:text-sky-400 text-xs font-medium block transition-colors">admin@rtconsultancy.in</a>
                 </div>
               </div>
             </div>

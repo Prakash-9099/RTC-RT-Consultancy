@@ -53,10 +53,10 @@ export default function Navbar() {
 
             {/* Logo */}
             <Link to="/" className="flex items-center gap-2.5 group shrink-0">
-              <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-sky-500 to-cyan-500 flex items-center justify-center shadow-md shadow-sky-200 group-hover:shadow-sky-300 transition-all duration-300 shrink-0">
+              {/* <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-sky-500 to-cyan-500 flex items-center justify-center shadow-md shadow-sky-200 group-hover:shadow-sky-300 transition-all duration-300 shrink-0">
                 <Zap className="w-4.5 h-4.5 text-white" strokeWidth={2.5} />
-              </div>
-              <div className="leading-none">
+              </div> */}
+              {/* <div className="leading-none">
                 <div className="flex items-baseline gap-1">
                   <span className="text-sky-600 font-black text-2xl tracking-tight">RTC</span>
                   <span className="text-slate-500 font-medium text-md hidden sm:inline">- RT Consultancy</span>
@@ -64,6 +64,22 @@ export default function Navbar() {
                 <p className="text-slate-400 text-[11px] font-medium hidden sm:block mt-px">
                   Empowering Skills. Transforming Careers.
                 </p>
+              </div> */}
+              <div className="leading-none flex items-center gap-2">
+                <img
+                  src="../public/images/RTC_logo.jpeg"
+                  alt="RTC Logo"
+                  className="h-10 w-auto object-contain"
+                />
+
+                <div className="hidden sm:block">
+                  <p className="text-slate-600 font-medium text-xl">
+                    RALPANA
+                  </p>
+                  <p className="text-slate-500 text-[12px] font-medium mt-px">
+                    Training & Consultancy
+                  </p>
+                </div>
               </div>
             </Link>
 
